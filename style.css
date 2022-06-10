@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background_color1: #5E2750;
+    --background_color2: #77216F;
+    --background_input: #eb7044;
+    --background_input-darker: #e16234;
+}
+
+body {
+    background: linear-gradient(120deg, var(--background_color1), var(--background_color2));
+    color: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+    min-height: 100vh;
+}
+
+header, form {
+    min-height: 20vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: all 0.3s ease-in-out;
+}
+
+form input, form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    outline: none;
+    background: #FFF;
+}
+
+form button {
+    color: var(--background_input);
+    background: #FFF;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+    background: var(--background_input-darker);
+    color: #FFF;
+}
