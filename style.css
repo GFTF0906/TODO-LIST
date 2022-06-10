@@ -7,8 +7,8 @@
 }
 
 :root {
-    --background_color1: #692d5a;
-    --background_color2: #802477;
+    --background_color1: #59274d;
+    --background_color2: #8a2e81;
     --background_input: #eb7044;
 
     --background_input-darker: #e16234;
@@ -132,6 +132,7 @@ select {
     width: 10rem;
     cursor: pointer;
     padding: 1rem;
+    font-weight: 700;
 }
 
 .select::after {
