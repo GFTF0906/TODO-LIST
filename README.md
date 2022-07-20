@@ -1,2 +1,2 @@
 # TODO-LIST
-Uma simples Todo List, realizada com HTML, CSS e JavaScript
+A simple Todo List, realized with HTML, CSS and JavaScript
